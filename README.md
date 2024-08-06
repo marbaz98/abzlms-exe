@@ -12,6 +12,7 @@ Can create/modify arbazLMS.py from "https://github.com/md-arbaz98/abzlms" as per
 then,
 change cmd directory to the application folder and run that cmd command there 
 >> pyinstaller --onefile --add-data "logo.png;." --add-data "dues.json;." --add-data "authors.json;." --add-data "books.json;." --add-data "borrowers.json;." arbazLMS.py
+
 it then build you .exe application in build folder.
 Copy all of your json files to build folder where arbazLMS.exe is build and its done.
 
